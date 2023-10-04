@@ -25,11 +25,11 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="4.1776837"
-     inkscape:cx="34.827912"
-     inkscape:cy="24.415444"
+     inkscape:cx="7.7794305"
+     inkscape:cy="24.654811"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
-     inkscape:window-x="-8"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
@@ -41,21 +41,22 @@
      id="layer1">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.2651px;font-family:Rockwell;-inkscape-font-specification:'Rockwell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff6600;stroke:#ffffff;stroke-width:0"
-       x="1.3789808"
-       y="14.524254"
-       id="text236"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.6102px;font-family:Rockwell;-inkscape-font-specification:'Rockwell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fc6933;stroke:#ffffff;stroke-width:0;fill-opacity:1"
+       x="2.4108357"
+       y="13.289925"
+       id="text236"
+       transform="scale(0.85948045,1.1634936)"><tspan
          sodipodi:role="line"
          id="tspan234"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.2651px;font-family:Rockwell;-inkscape-font-specification:'Rockwell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff6600;stroke-width:0"
-         x="1.3789808"
-         y="14.524254">I²d</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.6102px;font-family:Rockwell;-inkscape-font-specification:'Rockwell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fc6933;stroke-width:0;fill-opacity:1"
+         x="2.4108357"
+         y="13.289925">I²D</tspan></text>
     <rect
-       style="fill:none;stroke:#ff8100;stroke-width:0.795706;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#fc6933;stroke-width:0.829697;stroke-dasharray:none;stroke-opacity:1"
        id="rect448"
-       width="18.4835"
-       height="18.425192"
-       x="0.73312616"
-       y="0.73061371" />
+       width="19.146164"
+       height="19.339655"
+       x="0.39525118"
+       y="0.29850569" />
   </g>
 </svg>
