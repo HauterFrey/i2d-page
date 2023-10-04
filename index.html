@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/7a89f23c89.js" crossorigin="anonymous"></script>
     <style>
     body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif, color: w3-black}
 
@@ -25,8 +26,11 @@
       min-height: 100%;
     }
 
-    .w3-bar .w3-button {
-      padding: 16px;
+    .w3-bar{
+      padding: 0px;
+    }
+	.w3-button {
+      padding: 1px;
     }
 
      /* Style the video: 100% width and height to cover the entire window */
@@ -59,10 +63,12 @@
     <a href="#home" class="w3-bar-item w3-button w3-wide"><img src="i2d_logo.svg" height="32px"/></a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-button"> WAS WIR TUN</a>
-      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-rocket"></i> VISION</a>
+	  <a href="#inno" class="w3-bar-item w3-button"><i class="fa fa-info"></i> INNOVATIONSDIDAKTIK</a>
       <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> LEISTUNGEN</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
       <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> KONTAKT</a>
+	  <a href="#impressum" class="w3-bar-item w3-button"> IMPRESSUM</a> 
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
@@ -75,10 +81,12 @@
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">X</a>
-   <a href="#about" class="w3-bar-item w3-button"> WAS WIR TUN</a>
-   <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+   <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-rocket"></i> VISION</a>
+   <a href="#inno" class="w3-bar-item w3-button"><i class="fa fa-info"></i> INNOVATIONSDIDAKTIK</a>
    <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> LEISTUNGEN</a>
+   <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
    <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> KONTAKT</a> 
+   <a href="#impressum" class="w3-bar-item w3-button"> IMPRESSUM</a> 
 </nav>
 <!-- BG VIDEO -->
  <!-- The video -->
@@ -89,10 +97,10 @@
 <!-- Header with full-height image -->
 <header class="content w3-container w3-grayscale-min" id="home">
   <div class="w3-display-left w3-text-white" style="padding:100px 300px 0px 50px">
-    <span class="w3-jumbo w3-hide-small" >Institut für Innovationsdidaktik gUG i.G.</span><br>
-    <span class="w3-xxlarge w3-hide-large w3-hide-medium " >Institut für Innovationsdidaktik gUG i.G.</span><br>
-    <span class="w3-large" >Wir bringen innovative Bildung in Unternehmen und Schulen.</span>
-    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off"> WAS WIR TUN</a></p>
+    <span class="w3-jumbo w3-hide-small" >Institut für Innovationsdidaktik gUG</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium " >Institut für Innovationsdidaktik gUG</span><br>
+    <span class="w3-large" >Innovative Bildung in Unternehmen und Schulen.</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">VISION</a> <a href="#work" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">LEISTUNGEN</a></p>
   </div> 
   <div class="w3-hide-large w3-text-grey w3-large" style="padding:24px 48px">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
@@ -105,28 +113,50 @@
 </header>
 
 <!-- About Section -->
-<div class="content w3-container w3-grayscale-min" style="padding:96px 16px 100px" id="about">
-  <h3 class="w3-center">ABOUT THE COMPANY</h3>
-  <p class="w3-center w3-large">Key features of our company</p>
-  <div class="w3-row-padding w3-center" style="margin-top:64px">
+<div class="content w3-container w3-grayscale-min" style="padding:48px 16px 10px" id="about">
+  <h3 class="w3-center">Unsere Vision</h3>
+  <p class="w3-center w3-large">Schüler:innen und Auszubildende auf die Herausforderungen der Zukunft vorbereiten mit:</p>
+  <div class="w3-row-padding w3-center" style="margin-top:32px">
     <div class="w3-quarter">
-      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
-      <p class="w3-large">Responsive</p>
+      <i class="far fa-lightbulb w3-xxlarge w3-center"></i>
+      <p class="w3-large">Kreativität</p>
+      <p>Kreativitätstechniken und Innovoationsmethoden.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fas fa-users  w3-xxlarge"></i>
+      <p class="w3-large">Kommunikation</p>
+      <p>Gewaltfrei und effektiv Informationen austauschen.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fas fa-glasses  w3-xxlarge"></i>
+      <p class="w3-large">Kritisches Denken</p>
+      <p>Recherchieren und Informationen kritisch hinterfragen.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fas fa-users-gear  w3-xxlarge"></i>
+      <p class="w3-large">Kollaboration</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+  </div>
+  <div class="w3-row-padding w3-center" style="margin-top:32px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop  w3-xxlarge w3-center"></i>
+      <p class="w3-large">Nachhaltigkeit</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
     </div>
     <div class="w3-quarter">
-      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Passion</p>
+      <i class="fa fa-heart  w3-xxlarge"></i>
+      <p class="w3-large">Selbstbestimmtes Lernen</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
     </div>
     <div class="w3-quarter">
-      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Design</p>
+      <i class="fa fa-diamond  w3-xxlarge"></i>
+      <p class="w3-large">Persönlichkeit</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
     </div>
     <div class="w3-quarter">
-      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Support</p>
+      <i class="fa fa-cog  w3-xxlarge"></i>
+      <p class="w3-large">Systemdenken</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
     </div>
   </div>
@@ -152,7 +182,7 @@
   <div class="w3-row-padding w3-grayscale w3-center" style="margin-top:32px;">
     <div class="w3-col 13 m6 w3-margin-bottom w3-center">
       <div class="w3-card" style="margin:auto">
-        <img src="team/tb.jpg" alt="John"  style="width:50%">
+        <img src="team/tb.jpg" alt="Tim"  style="width:50%">
         <div class="w3-container">
           <h3>Tim Backes</h3>
           <p class="w3-opacity">Gründungsmitglied & Coach</p>
