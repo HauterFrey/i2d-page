@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>I²D | Institut für Innovationsdidaktik</title>
-	<link rel="icon" type="image/svg" href="logo/i2d_logo.svg"/>
+	<link rel="icon" type="image/svg" href="i2d_logo.svg"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -60,12 +60,21 @@
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="#home" class="w3-bar-item w3-button w3-wide"><img alt="i2d i²d I²D Innovationsdidaktik" src="logo/i2d_logo.svg" height="32px"/></a>
+    <a href="#home" class="w3-bar-item w3-button w3-wide"><img alt="i2d i²d I²D Innovationsdidaktik" src="i2d_logo.svg" height="32px"/></a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-rocket"></i> VISION</a>
+	
 	  <a href="#inno" class="w3-bar-item w3-button"><i class="fa fa-info"></i> INNOVATIONSDIDAKTIK</a>
+	  	
+	<div class="w3-dropdown-hover">
       <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> LEISTUNGEN</a>
+	   <div class="w3-dropdown-content w3-bar-block w3-border" style="margin-top:40px">
+   		  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+    	  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+    	  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  		 </div>
+	</div>
       <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
       <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> KONTAKT</a>
 	  <a href="#impressum" class="w3-bar-item w3-button"> IMPRESSUM</a> 
@@ -83,7 +92,14 @@
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">X</a>
    <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-rocket"></i> VISION</a>
    <a href="#inno" class="w3-bar-item w3-button"><i class="fa fa-info"></i> INNOVATIONSDIDAKTIK</a>
-   <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> LEISTUNGEN</a>
+   <div class="w3-dropdown-hover">
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> LEISTUNGEN</a>
+	   <div class="w3-dropdown-content w3-bar-block w3-border" style="margin-top:0px">
+   		  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+    	  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+    	  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  		 </div>
+	</div>
    <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
    <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> KONTAKT</a> 
    <a href="#impressum" class="w3-bar-item w3-button"> IMPRESSUM</a> 
@@ -228,55 +244,27 @@
 <!--END HIDDEN -->
 
 <!-- Work Section -->
-<div class="content w3-container w3-grayscale-min w3-center" style="padding:48px 48px" id="work">
-    <h3 class="w3-center">LEISTUNGEN</h3>
-   <div class="w3-row-padding w3-grayscale w3-center" style="margin-top:12px;">
-    <div class="w3-col 13 m6 w3-margin-bottom w3-center">
-      <div class="w3-card-4" style="margin:auto; width:95%">
-        <img class="w3-center" src="images/tafel_birne.jpg" style="width:50%; padding:10px;" alt="Tafel Idee">
-        <div class="w3-container">
-          <h3>Innovationsdidaktik in Schulen</h3>
-          <p class="w3-justify " style="padding:5px">Ein Innovationsworkshop von I²D wird kollaborativ mit Lehrkräften an Schulen erarbeitet und durchgeführt. Durch das an Design-Thinking angelehnte Konzept liegt der Fokus der Workshops auf der tiefgreifenden Auseinandersetzung mit selbstgewählten Themen der Schüler:innen.</p>
-		  <p><a href="schulen.html" class="w3-button w3-light-grey w3-block"><i class="fa fa-link"></i> I²D für Schulen</a></p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col 13 m6 w3-margin-bottom w3-center">
-      <div class="w3-card-4" style="margin:auto; width:95%">
-        <img class="w3-center" src="images/tafel_birne.jpg" style="width:50%; padding:10px;" alt="Tafel Idee">
-        <div class="w3-container">
-          <h3>Innovationsdidaktik in Unternehmen</h3>
-          <p class="w3-justify " style="padding:5px">Ein Innovationsworkshop von I²D wird kollaborativ mit Lehrkräften an Schulen erarbeitet und durchgeführt. Durch das an Design-Thinking angelehnte Konzept liegt der Fokus der Workshops auf der tiefgreifenden Auseinandersetzung mit selbstgewählten Themen der Schüler:innen.</p>
-		  <p><a href="business.html" class="w3-button w3-light-grey w3-block"><i class="fa fa-link"></i> I²D für Unternhemen</a></p>
-        </div>
-      </div>
-     </div>
-    </div> 
-  </div>
-</div>
-
-
-<div class="content w3-container w3-grayscale-min w3-center" style="padding:50px 16px" id="work">
+<div class="content w3-container w3-grayscale-min" style="padding:50px 16px" id="work">
   <h3 class="w3-center">LEISTUNGEN</h3>
   <p class="w3-center w3-large">Was tun wir für Sie und Ihre Organisation?</p>
 
   <div class="w3-row-padding" style="margin-top:16px">
-    <a href="schulen.html">
-	<div class="w3-col l3 m10 w3-card">
+    <div class="w3-col l3 m6 w3-card">
       <h4 class="w3-center">Innovationsdidaktik in Schulen</h4>
-	  <img class="w3-center" src="images/tafel_birne.jpg" style="width:80%; padding:10px;" alt="Tafel Idee">
-	  <p class="w3-justify " style="padding:5px">Ein Innovationsworkshop von I²D wird kollaborativ mit Lehrkräften an Schulen erarbeitet und durchgeführt. Durch das an Design-Thinking angelehnte Konzept liegt der Fokus der Workshops auf der tiefgreifenden Auseinandersetzung mit selbstgewählten Themen der Schüler:innen.</p>
+	  <p class="w3-justify ">Ein Innovationsworkshop von I²D wird kooperativ mit Lehrkräften an Schulen erarbeitet und durchgeführt. Durch das an Design-Thinking angelehnte Konzept liegt der Fokus der Workshops auf der tiefgreifenden Auseinandersetzung mit selbstgewählten Themen der Schüler:innen.</p>
 	</div>
-	</a>
-    <a href="schulen.html">
-	<div class="w3-col l3 m1 w3-card">
-      <h4 class="w3-center">Innovationsdidaktik in Unternehmen</h4>
-	  <img src="images/tafel_birne.jpg" style="width:80%" alt="Tafel Idee">
-	  <p class="w3-justify " style="padding:5px">Ein Innovationsworkshop von I²D wird kollaborativ mit Lehrkräften an Schulen erarbeitet und durchgeführt. Durch das an Design-Thinking angelehnte Konzept liegt der Fokus der Workshops auf der tiefgreifenden Auseinandersetzung mit selbstgewählten Themen der Schüler:innen.</p>
-	</div>
-	</a>    
+    <div class="w3-col l3 m6 w3-card">
+      <img src="https://www.w3schools.com/w3images/tech_phone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://www.w3schools.com/w3images/tech_drone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://www.w3schools.com/w3images/tech_sound.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
+    </div>
   </div>
 </div>
+
 <!-- Modal for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
   <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
@@ -290,7 +278,7 @@
 <div class="content w3-container w3-grayscale-min">
   <div class="w3-row-padding">
     <div class="w3-col m6">
-      <h3>Our Skills.</s>
+      <h3>Our Skills.</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
       tempor incididunt ut labore et dolore.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>

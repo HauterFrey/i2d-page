@@ -9,6 +9,9 @@
    id="svg5"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:docname="I2d_logo.svg"
+   inkscape:export-filename="I2d_logo_groß.png"
+   inkscape:export-xdpi="6000"
+   inkscape:export-ydpi="6000"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,9 +27,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="4.1776837"
-     inkscape:cx="7.7794305"
-     inkscape:cy="24.654811"
+     inkscape:zoom="5.9081369"
+     inkscape:cx="32.920699"
+     inkscape:cy="31.482006"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="1912"
@@ -52,11 +55,11 @@
          x="2.4108357"
          y="13.289925">I²D</tspan></text>
     <rect
-       style="fill:none;stroke:#fc6933;stroke-width:0.829697;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#fc6933;stroke-width:0.830627;stroke-dasharray:none;stroke-opacity:1"
        id="rect448"
-       width="19.146164"
-       height="19.339655"
-       x="0.39525118"
-       y="0.29850569" />
+       width="19.190018"
+       height="19.338726"
+       x="0.40499115"
+       y="0.33063698" />
   </g>
 </svg>
