@@ -46,19 +46,22 @@
 .content {
   
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.1);
   color: #f1f1f1;
   width: 100%;
   padding: 300px;
 }
 
-.big-distance{
-	margin-left:0px;
-	margin-right:0px;
-	text-align: left;
+p.big-distance{
+	margin-left:32px;
+	margin-right:32px;
+	/*text-align: left;*/
 	
 } w3-justify
 
+.i2d-card{
+	padding-top:32px;
+}
 
     </style>
   </head>
@@ -122,59 +125,69 @@
 <!-- About Section -->
 <div class="content w3-container w3-grayscale-min" style="padding:32px" id="about">
   <h3 class="w3-center">Unsere Vision</h3>
-  <p class="w3-center w3-large">Schüler:innen und Auszubildende auf die Herausforderungen der Zukunft vorbereiten mit:</p>
-  <div class="w3-row-padding w3-center" style="margin-top:32px; margin-left:0%; margin-right:0%">
-    <div class="w3-third " >
-      <i class="far fa-lightbulb w3-xxxlarge w3-center"></i>
+  <p class="w3-center w3-large">Schüler:innen und Auszubildende auf die Herausforderungen der Zukunft vorbereiten mit:</p> 
+  <div class="w3-row-padding w3-section w3-stretch">
+   
+    
+	<div class="w3-col m4 w3-center" style="padding-top: 32px; " >
+      <i class="far fa-lightbulb fa-10x w3-center"></i>
       <p class="w3-large">Kreativität</p>
       <p class="big-distance">Kreativitätstechniken und Innovationsmethoden erlernen.</p>
     </div>
-    <div class="w3-third">
-      <i class="fas fa-users  w3-xxxlarge"></i>
+   <div class="w3-col m4 w3-center" style="padding-top: 32px;" >
+      <i class="fas fa-users fa-10x"></i>
       <p class="w3-large">Kommunikation</p>
       <p class="big-distance">Gewaltfrei und effektiv Informationen austauschen.</p>
     </div>
-    <div class="w3-third">
-      <i class="fas fa-glasses  w3-xxxlarge"></i>
+   <div class="w3-col m4 w3-center" style="padding-top: 32px;" >
+      <i class="fas fa-glasses fa-10x"></i>
       <p class="w3-large">Kritisches Denken</p>
       <p class="big-distance">Recherchieren und Informationen kritisch hinterfragen.</p>
     </div>
-    
-  </div>
-  <div class="w3-row-padding w3-center" style="margin-top:32px; margin-left:0%; margin-right:0%">
-    <div class="w3-third ">
-      <i class="fas fa-users-gear  w3-xxxlarge"></i>
+	<div class="w3-col m4 w3-center" style="padding-top: 32px;" >
+      <i class="fas fa-users-gear fa-10x"></i>
       <p class="w3-large">Kollaboration</p>
       <p class="big-distance">Gemeinsam zielorientiert arbeiten.</p>
     </div>
-	<div class="w3-third ">
-      <i class="fa fa-globe  w3-xxxlarge"></i>
+	<div class="w3-col m4 w3-center" style="padding-top: 32px; min-height:300" >
+      <i class="fa fa-globe fa-10x"></i>
       <p class="w3-large">Nachhaltigkeit</p>
       <p class="big-distance">Nachhaltige Verhaltensweisen und globale Zusammenhänge verstehen.</p>
     </div>
-    <div class="w3-third">
-      <i class="fa fa-graduation-cap  w3-xxxlarge"></i>
+    <div class="w3-col m4 w3-center" style="padding-top: 32px; min-height:300" >
+      <i class="fa fa-graduation-cap fa-10x"></i>
       <p class="w3-large">Selbstbestimmtes Lernen</p>
       <p class="big-distance">Lernende stellen eigene Herausforderungen auf und entwickeln Kompetenzen für lebenslanges Lernen.</p>
     </div>
-  </div>
-  <div class="w3-row-padding w3-center" style="margin-top:32px; margin-left:0%; margin-right:0%">
-
-    <div class="w3-third">
-      <i class="fa fa-person-rays  w3-xxxlarge"></i>
+	
+	<div class="w3-col m4 w3-center" style="padding-top: 32px; min-height:300" >
+      <i class="fa fa-person-rays  fa-10x"></i>
       <p class="w3-large">Persönlichkeit</p>
       <p class="big-distance">Selbstwirksamkeitserfahrungen, Reflexion und die Möglichkeit zu scheitern stärken das Selbstbewusstsein.</p>
     </div>
-    <div class="w3-third">
-      <i class="fa fa-gears  w3-xxxlarge"></i><i class="fa fa-gears  w3-xxxlarge" style="margin-left:-4px"></i>
+    <div class="w3-col m4 w3-center" style="padding-top: 32px; min-height:300" >
+      <i class="fa fa-gears  fa-10x"></i><i class="fa fa-gears fa-10x" style="margin-left:-4px"></i>
       <p class="w3-large">Systemdenken</p>
       <p class="big-distance">Systeme und deren Eigenschaften analysieren, um Gestaltungsmöglichkeiten zu entdecken.</p>
     </div>
-	<div class="w3-third">
-      <i class="fa fa-infinity  w3-xxxlarge"></i>
+	<div class="w3-col m4 w3-center" style="padding-top: 32px; min-height:300" >
+      <i class="fa fa-infinity  fa-10x"></i>
       <p class="w3-large">Innovationsmindset</p>
       <p class="big-distance">Systeme und deren Eigenschaften analysieren, um Gestaltungsmöglichkeiten zu entdecken.</p>
     </div>
+
+
+
+
+
+
+
+
+
+  </div>
+	
+	
+	
   </div>
 </div>
 
@@ -326,7 +339,7 @@
       <p><input class="w3-input w3-border" type="text" placeholder="Nachricht" required name="Nachricht"></p>
       <p>
         <button class="w3-button w3-black" type="submit">
-          <i class="fa fa-paper-plane"></i> Nachricht schicken
+          <i class="fa fa-paper-plane"></i> Nachricht senden
         </button>
       </p>
     </form>
