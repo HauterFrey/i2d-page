@@ -282,7 +282,7 @@
 </div>
 
 <!-- Skills Section -->
-<div class="content w3-container w3-grayscale-min">
+<div class="content w3-container w3-grayscale-min w3-hide">
   <div class="w3-row-padding">
     <div class="w3-col m6">
       <h3>Our Skills.</s>
@@ -310,22 +310,22 @@
 
 
 <!-- Contact Section -->
-<div class="content w3-container w3-grayscale-min" style="padding:128px 16px" id="contact">
-  <h3 class="w3-center">CONTACT</h3>
-  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+<div class="content w3-container w3-grayscale-min" style="padding:48px 256px;" id="contact">
+  <h3 class="w3-center">Kontakt</h3>
+  <p class="w3-center w3-large">Melden Sie sich gerne bei uns:</p>
   <div style="margin-top:48px">
-    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chicago, US</p>
-    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
-    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right" style="padding-top: -64px"></i>Institut für Innovationsdidaktik gUG <br> <div style="margin-left:60px; margin-top: -16px">An der Schneiderburg 14 <br> 55469 Simmern </div></p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i>+49 175 58 21 383 <br><div style="margin-left:60px; margin-top: -16px"> +49 175 99 10 712</div></p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> hallo@i2d.info</p>
     <br>
-    <form action="/action_page.php" target="_blank">
+    <form name="contact" netlify>
       <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Betreff" required name="Betreff"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Nachricht" required name="Nachricht"></p>
       <p>
         <button class="w3-button w3-black" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          <i class="fa fa-paper-plane"></i> Nachricht schicken
         </button>
       </p>
     </form>
